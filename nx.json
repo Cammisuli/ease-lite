@@ -83,7 +83,8 @@
         "buildDepsTargetName": "build-deps",
         "watchDepsTargetName": "watch-deps"
       }
-    }
+    },
+    "@nx/owners"
   ],
   "generators": {
     "@nx/angular:application": {
@@ -100,5 +101,36 @@
       "style": "css"
     }
   },
-  "nxCloudUrl": "https://staging.nx.app"
+  "nxCloudUrl": "https://staging.nx.app",
+  "sync": {
+    "globalGenerators": ["@nx/owners:sync-codeowners-file"]
+  },
+  "owners": {
+    "format": "github",
+    "patterns": [
+      {
+        "description": "Bob owns all the bank features",
+        "projects": ["bank-features*"],
+        "owners": ["@bob"]
+      },
+      {
+        "description": "Bill owns bank-feature-1 and bank-feature-2",
+        "projects": ["bank-feature-1", "bank-feature-2"],
+        "owners": ["@bill", "@bob"]
+      },
+      {
+        "projects": ["card-features*"],
+        "owners": ["@charlie"]
+      },
+      {
+        "projects": ["card-feature-3"],
+        "owners": ["@chuck", "@charlie"]
+      },
+      {
+        "description": "Gill owns all the features",
+        "projects": ["*"],
+        "owners": ["@gill"]
+      }
+    ]
+  }
 }
