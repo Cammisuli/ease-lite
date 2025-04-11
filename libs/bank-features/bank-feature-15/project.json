@@ -1,0 +1,9 @@
+{
+  "name": "bank-feature-15",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/bank-features/bank-feature-15/src",
+  "projectType": "library",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project bank-feature-15 --web",
+  "targets": {}
+}

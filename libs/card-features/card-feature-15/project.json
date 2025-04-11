@@ -1,0 +1,9 @@
+{
+  "name": "card-feature-15",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/card-features/card-feature-15/src",
+  "projectType": "library",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project card-feature-15 --web",
+  "targets": {}
+}

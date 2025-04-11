@@ -19,6 +19,52 @@
       "@ease-lite/bank-checking-account": [
         "libs/bank-features/checking-account/src/index.ts"
       ],
+      "@ease-lite/bank-feature-1": [
+        "libs/bank-features/bank-feature-1/src/index.ts"
+      ],
+      "@ease-lite/bank-feature-10": [
+        "libs/bank-features/bank-feature-10/src/index.ts"
+      ],
+      "@ease-lite/bank-feature-11": [
+        "libs/bank-features/bank-feature-11/src/index.ts"
+      ],
+      "@ease-lite/bank-feature-12": [
+        "libs/bank-features/bank-feature-12/src/index.ts"
+      ],
+      "@ease-lite/bank-feature-13": [
+        "libs/bank-features/bank-feature-13/src/index.ts"
+      ],
+      "@ease-lite/bank-feature-14": [
+        "libs/bank-features/bank-feature-14/src/index.ts"
+      ],
+      "@ease-lite/bank-feature-15": [
+        "libs/bank-features/bank-feature-15/src/index.ts"
+      ],
+      "@ease-lite/bank-feature-2": [
+        "libs/bank-features/bank-feature-2/src/index.ts"
+      ],
+      "@ease-lite/bank-feature-3": [
+        "libs/bank-features/bank-feature-3/src/index.ts"
+      ],
+      "@ease-lite/bank-feature-4": [
+        "libs/bank-features/bank-feature-4/src/index.ts"
+      ],
+      "@ease-lite/bank-feature-5": [
+        "libs/bank-features/bank-feature-5/src/index.ts"
+      ],
+      "@ease-lite/bank-feature-6": [
+        "libs/bank-features/bank-feature-6/src/index.ts"
+      ],
+      "@ease-lite/bank-feature-7": [
+        "libs/bank-features/bank-feature-7/src/index.ts"
+      ],
+      "@ease-lite/bank-feature-8": [
+        "libs/bank-features/bank-feature-8/src/index.ts"
+      ],
+      "@ease-lite/bank-feature-9": [
+        "libs/bank-features/bank-feature-9/src/index.ts"
+      ],
+      "@ease-lite/bank-features": ["libs/bank-features/src/index.ts"],
       "@ease-lite/bank-pay-bill": ["libs/bank-features/pay-bill/src/index.ts"],
       "@ease-lite/bank-routes": ["libs/bank-features/routes/src/index.ts"],
       "@ease-lite/bank-savings-account": [
@@ -28,6 +74,52 @@
         "libs/bank-features/shared/utils/src/index.ts"
       ],
       "@ease-lite/card-auto-pay": ["libs/card-features/auto-pay/src/index.ts"],
+      "@ease-lite/card-feature-1": [
+        "libs/card-features/card-feature-1/src/index.ts"
+      ],
+      "@ease-lite/card-feature-10": [
+        "libs/card-features/card-feature-10/src/index.ts"
+      ],
+      "@ease-lite/card-feature-11": [
+        "libs/card-features/card-feature-11/src/index.ts"
+      ],
+      "@ease-lite/card-feature-12": [
+        "libs/card-features/card-feature-12/src/index.ts"
+      ],
+      "@ease-lite/card-feature-13": [
+        "libs/card-features/card-feature-13/src/index.ts"
+      ],
+      "@ease-lite/card-feature-14": [
+        "libs/card-features/card-feature-14/src/index.ts"
+      ],
+      "@ease-lite/card-feature-15": [
+        "libs/card-features/card-feature-15/src/index.ts"
+      ],
+      "@ease-lite/card-feature-2": [
+        "libs/card-features/card-feature-2/src/index.ts"
+      ],
+      "@ease-lite/card-feature-3": [
+        "libs/card-features/card-feature-3/src/index.ts"
+      ],
+      "@ease-lite/card-feature-4": [
+        "libs/card-features/card-feature-4/src/index.ts"
+      ],
+      "@ease-lite/card-feature-5": [
+        "libs/card-features/card-feature-5/src/index.ts"
+      ],
+      "@ease-lite/card-feature-6": [
+        "libs/card-features/card-feature-6/src/index.ts"
+      ],
+      "@ease-lite/card-feature-7": [
+        "libs/card-features/card-feature-7/src/index.ts"
+      ],
+      "@ease-lite/card-feature-8": [
+        "libs/card-features/card-feature-8/src/index.ts"
+      ],
+      "@ease-lite/card-feature-9": [
+        "libs/card-features/card-feature-9/src/index.ts"
+      ],
+      "@ease-lite/card-features": ["libs/card-features/src/index.ts"],
       "@ease-lite/card-pay-bill": ["libs/card-features/pay-bill/src/index.ts"],
       "@ease-lite/card-routes": ["libs/card-features/routes/src/index.ts"],
       "@ease-lite/card-shared-utils": [
@@ -35,6 +127,51 @@
       ],
       "@ease-lite/ease-shared-components": [
         "libs/ease-shared/components/src/index.ts"
+      ],
+      "@ease-lite/loan-feature-1": [
+        "libs/loans-features/loan-feature-1/src/index.ts"
+      ],
+      "@ease-lite/loan-feature-10": [
+        "libs/loans-features/loan-feature-10/src/index.ts"
+      ],
+      "@ease-lite/loan-feature-11": [
+        "libs/loans-features/loan-feature-11/src/index.ts"
+      ],
+      "@ease-lite/loan-feature-12": [
+        "libs/loans-features/loan-feature-12/src/index.ts"
+      ],
+      "@ease-lite/loan-feature-13": [
+        "libs/loans-features/loan-feature-13/src/index.ts"
+      ],
+      "@ease-lite/loan-feature-14": [
+        "libs/loans-features/loan-feature-14/src/index.ts"
+      ],
+      "@ease-lite/loan-feature-15": [
+        "libs/loans-features/loan-feature-15/src/index.ts"
+      ],
+      "@ease-lite/loan-feature-2": [
+        "libs/loans-features/loan-feature-2/src/index.ts"
+      ],
+      "@ease-lite/loan-feature-3": [
+        "libs/loans-features/loan-feature-3/src/index.ts"
+      ],
+      "@ease-lite/loan-feature-4": [
+        "libs/loans-features/loan-feature-4/src/index.ts"
+      ],
+      "@ease-lite/loan-feature-5": [
+        "libs/loans-features/loan-feature-5/src/index.ts"
+      ],
+      "@ease-lite/loan-feature-6": [
+        "libs/loans-features/loan-feature-6/src/index.ts"
+      ],
+      "@ease-lite/loan-feature-7": [
+        "libs/loans-features/loan-feature-7/src/index.ts"
+      ],
+      "@ease-lite/loan-feature-8": [
+        "libs/loans-features/loan-feature-8/src/index.ts"
+      ],
+      "@ease-lite/loan-feature-9": [
+        "libs/loans-features/loan-feature-9/src/index.ts"
       ],
       "@ease-lite/loans-accounts": [
         "libs/loans-features/accounts/src/index.ts"
