@@ -15,7 +15,7 @@
     ],
     "sharedGlobals": ["{workspaceRoot}/.github/workflows/ci.yml"]
   },
-  "nxCloudId": "67f91d18cd7d4644b2f2b857",
+  "nxCloudId": "67f93551c6945e39ebc10a67",
   "targetDefaults": {
     "@angular-devkit/build-angular:application": {
       "cache": true,
@@ -80,5 +80,6 @@
     "@nx/angular:component": {
       "style": "css"
     }
-  }
+  },
+  "nxCloudUrl": "https://staging.nx.app"
 }
