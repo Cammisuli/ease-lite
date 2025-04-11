@@ -1,0 +1,46 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@ease-lite/bank-auto-pay": ["libs/bank-features/auto-pay/src/index.ts"],
+      "@ease-lite/bank-checking-account": [
+        "libs/bank-features/checking-account/src/index.ts"
+      ],
+      "@ease-lite/bank-pay-bill": ["libs/bank-features/pay-bill/src/index.ts"],
+      "@ease-lite/bank-routes": ["libs/bank-features/routes/src/index.ts"],
+      "@ease-lite/bank-savings-account": [
+        "libs/bank-features/savings-account/src/index.ts"
+      ],
+      "@ease-lite/bank-shared-utils": [
+        "libs/bank-features/shared/utils/src/index.ts"
+      ],
+      "@ease-lite/card-auto-pay": ["libs/card-features/auto-pay/src/index.ts"],
+      "@ease-lite/card-pay-bill": ["libs/card-features/pay-bill/src/index.ts"],
+      "@ease-lite/card-routes": ["libs/card-features/routes/src/index.ts"],
+      "@ease-lite/card-shared-utils": [
+        "libs/card-features/shared/utils/src/index.ts"
+      ],
+      "@ease-lite/ease-shared-components": [
+        "libs/ease-shared/components/src/index.ts"
+      ],
+      "@ease-lite/loans-accounts": [
+        "libs/loans-features/accounts/src/index.ts"
+      ],
+      "@ease-lite/loans-routes": ["libs/loans-features/routes/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
