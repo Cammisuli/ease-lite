@@ -15,7 +15,7 @@
     ],
     "sharedGlobals": ["{workspaceRoot}/.github/workflows/ci.yml"]
   },
-  "nxCloudId": "67f9383f486d78c7cf952431",
+  "nxCloudId": "67ffb1e57eeb2ddcc3480776",
   "targetDefaults": {
     "@angular-devkit/build-angular:application": {
       "cache": true,
@@ -31,25 +31,13 @@
         "{workspaceRoot}/eslint.config.mjs"
       ]
     },
-    "@nx/vite:test": {
-      "cache": true,
-      "inputs": ["default", "^production"]
-    },
-    "e2e-ci--**/*": {
-      "dependsOn": ["^build"]
-    },
+    "@nx/vite:test": { "cache": true, "inputs": ["default", "^production"] },
+    "e2e-ci--**/*": { "dependsOn": ["^build"] },
     "@nx/jest:jest": {
       "cache": true,
       "inputs": ["default", "^production", "{workspaceRoot}/jest.preset.js"],
-      "options": {
-        "passWithNoTests": true
-      },
-      "configurations": {
-        "ci": {
-          "ci": true,
-          "codeCoverage": true
-        }
-      }
+      "options": { "passWithNoTests": true },
+      "configurations": { "ci": { "ci": true, "codeCoverage": true } }
     },
     "@nx/js:tsc": {
       "cache": true,
@@ -58,18 +46,8 @@
     }
   },
   "plugins": [
-    {
-      "plugin": "@nx/playwright/plugin",
-      "options": {
-        "targetName": "e2e"
-      }
-    },
-    {
-      "plugin": "@nx/eslint/plugin",
-      "options": {
-        "targetName": "lint"
-      }
-    },
+    { "plugin": "@nx/playwright/plugin", "options": { "targetName": "e2e" } },
+    { "plugin": "@nx/eslint/plugin", "options": { "targetName": "lint" } },
     {
       "plugin": "@nx/vite/plugin",
       "options": {
@@ -93,18 +71,11 @@
       "style": "css",
       "unitTestRunner": "vitest"
     },
-    "@nx/angular:library": {
-      "linter": "eslint",
-      "unitTestRunner": "jest"
-    },
-    "@nx/angular:component": {
-      "style": "css"
-    }
+    "@nx/angular:library": { "linter": "eslint", "unitTestRunner": "jest" },
+    "@nx/angular:component": { "style": "css" }
   },
   "nxCloudUrl": "https://staging.nx.app",
-  "sync": {
-    "globalGenerators": ["@nx/owners:sync-codeowners-file"]
-  },
+  "sync": { "globalGenerators": ["@nx/owners:sync-codeowners-file"] },
   "owners": {
     "format": "github",
     "patterns": [
@@ -118,14 +89,8 @@
         "projects": ["bank-feature-1", "bank-feature-2"],
         "owners": ["@bill", "@bob"]
       },
-      {
-        "projects": ["card-features*"],
-        "owners": ["@charlie"]
-      },
-      {
-        "projects": ["card-feature-3"],
-        "owners": ["@chuck", "@charlie"]
-      },
+      { "projects": ["card-features*"], "owners": ["@charlie"] },
+      { "projects": ["card-feature-3"], "owners": ["@chuck", "@charlie"] },
       {
         "description": "Gill owns all the features",
         "projects": ["*"],
